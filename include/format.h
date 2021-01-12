@@ -5,7 +5,6 @@
 
 namespace Format {
 std::string ElapsedTime(long seconds);  
-std::string SetZero(int time);
 };                                    
 
 #endif

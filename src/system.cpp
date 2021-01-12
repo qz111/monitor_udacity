@@ -27,13 +27,10 @@ vector<Process>& System::Processes()
     for(const int& pid:pids_)
     {
         Process tmp(pid);
+        tmp.SetAll();
         processes_.emplace_back(tmp);
     }
-    std::sort(processes_.begin(),processes_.end(),[](const Process & a, const Process & b){return b<a;});
-    for(Process& process:processes_)
-    {
-        process.SetAll();
-    }
+    std::sort(processes_.rbegin(),processes_.rend());
     return processes_;
 }
 

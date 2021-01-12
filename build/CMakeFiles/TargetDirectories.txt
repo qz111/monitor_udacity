@@ -1,3 +1,3 @@
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/build/CMakeFiles/rebuild_cache.dir
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/build/CMakeFiles/edit_cache.dir
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir
+/home/dq1314/projects/monitor_udacity/build/CMakeFiles/rebuild_cache.dir
+/home/dq1314/projects/monitor_udacity/build/CMakeFiles/edit_cache.dir
+/home/dq1314/projects/monitor_udacity/build/CMakeFiles/monitor.dir

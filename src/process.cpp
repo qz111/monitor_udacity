@@ -42,5 +42,5 @@ void Process::SetAll()
   user_=LinuxParser::User(pid_);
   command_=LinuxParser::Command(pid_);
   ram_=LinuxParser::Ram(pid_);
-  uptime_=LinuxParser::UpTime(pid_);
+  uptime_=LinuxParser::UpTime()-LinuxParser::UpTime(pid_);
 }

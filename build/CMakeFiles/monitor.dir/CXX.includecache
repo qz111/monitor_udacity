@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../include/format.h
-string
--
-
 ../include/linux_parser.h
 fstream
 -
@@ -19,14 +15,6 @@ string
 -
 unistd.h
 -
-
-../include/ncurses_display.h
-curses.h
--
-process.h
-../include/process.h
-system.h
-../include/system.h
 
 ../include/process.h
 string
@@ -60,49 +48,21 @@ processor.h
 linux_parser.h
 ../include/linux_parser.h
 
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/linux_parser.cpp
-dirent.h
--
+/home/dq1314/projects/monitor_udacity/src/process.cpp
 unistd.h
 -
+cctype
+-
+sstream
+-
 string
 -
 vector
 -
-cmath
--
-linux_parser.h
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/linux_parser.h
+process.h
+/home/dq1314/projects/monitor_udacity/src/process.h
 
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/main.cpp
-ncurses_display.h
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/ncurses_display.h
-system.h
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/system.h
-
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/ncurses_display.cpp
-curses.h
--
-chrono
--
-string
--
-thread
--
-vector
--
-format.h
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/format.h
-ncurses_display.h
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/ncurses_display.h
-system.h
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/system.h
-
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/processor.cpp
-processor.h
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/processor.h
-
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/system.cpp
+/home/dq1314/projects/monitor_udacity/src/system.cpp
 unistd.h
 -
 cstddef
@@ -114,9 +74,9 @@ string
 vector
 -
 process.h
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/process.h
+/home/dq1314/projects/monitor_udacity/src/process.h
 processor.h
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/processor.h
+/home/dq1314/projects/monitor_udacity/src/processor.h
 system.h
-/home/dq1314/projects/CppND-System-Monitor-Project-Updated/src/system.h
+/home/dq1314/projects/monitor_udacity/src/system.h
 
